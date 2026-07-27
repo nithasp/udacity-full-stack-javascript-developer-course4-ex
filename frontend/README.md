@@ -16,6 +16,8 @@ ng test           # Karma + Jasmine (13 spec files)
 ng build          # production build
 ```
 
+> **Note:** product and cart data are fetched from the backend REST API. The UI loads with `ng serve` alone, but the backend must also be running (see [root README](../README.md)) for the catalog and cart to populate.
+
 ## Features
 
 | Area | Description |
